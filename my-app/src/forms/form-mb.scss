@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1024px) {
+  form {
+    width: 80vw;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+    .input-wrapper {
+      position: relative;
+      input {
+        height: 50px;
+        padding: 0;
+        position: absolute;
+        &:focus, &:active {
+          outline: none;
+        }
+        &:focus + label {
+          transform: translate(-.25rem, -1.0rem);
+          transition: all 0.2s ease-out;
+          font-size: 10px;
+        }
+      }
+      label {
+        padding: 15px;
+      }
+    }
+    button {
+      height: 100%;
+      font-size: 12px !important;
+      height: 50px;
+      border-radius: 0 !important;
+    }
+  }
+}

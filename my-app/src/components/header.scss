@@ -1,0 +1,13 @@
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 35px 70px;
+    .netflix-logo {
+      width: 14vw;
+      max-width: 200px;
+      height: auto;
+      padding: 7px 0 0 0;
+    }
+  }
