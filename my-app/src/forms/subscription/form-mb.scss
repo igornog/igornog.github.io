@@ -12,6 +12,7 @@
         height: 50px;
         padding: 0;
         position: absolute;
+        border-radius: 5px;
         &:focus, &:active {
           outline: none;
         }
@@ -29,7 +30,7 @@
       height: 100%;
       font-size: 12px !important;
       height: 50px;
-      border-radius: 0 !important;
+      border-radius: 0 5px 5px 0 !important;
     }
   }
 }

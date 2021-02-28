@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1024px) {
+    .faq-section {
+        padding: 0 15px;
+        .accordion {
+            padding: 0 15px !important;
+            .accordion__title {
+                text-align: left;
+            }
+        }
+        .accordion__text {
+            padding: 15px !important;
+        }
+        .form-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 0 50px;
+        }
+    }
+}

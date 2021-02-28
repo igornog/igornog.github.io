@@ -16,6 +16,7 @@ form {
         border: 0;
         transform: translate(0, 0);
         padding: 0 15px;
+        box-sizing: content-box;
         &:focus, &:active {
           outline: none;
         }
@@ -37,5 +38,6 @@ form {
     button {
       width: 20vw;
       height: 100%;
+      border-radius: 0 !important;
     }
   }
