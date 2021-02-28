@@ -2,22 +2,23 @@
   form {
     width: 80vw;
     flex-direction: column;
-    height: auto;
     position: relative;
     align-items: flex-end;
     justify-content: center;
     .input-wrapper {
       position: relative;
+      height: unset;
       input {
         height: 50px;
         padding: 0;
         position: absolute;
         border-radius: 5px;
+        font-size: 18px;
         &:focus, &:active {
           outline: none;
         }
-        &:focus + label {
-          transform: translate(-.25rem, -1.0rem);
+        &:focus + label, &:focus-within + label, &:active + label, &.active + label {
+          transform: translate(-0rem, -1rem);
           transition: all 0.2s ease-out;
           font-size: 10px;
         }
@@ -31,6 +32,7 @@
       font-size: 12px !important;
       height: 50px;
       border-radius: 0 5px 5px 0 !important;
+      left: 15px;
     }
   }
 }

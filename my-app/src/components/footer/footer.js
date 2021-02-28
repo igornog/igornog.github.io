@@ -54,7 +54,7 @@ const Footer = () =>
           <li>Legal Notices</li>
         </a>
         <a href="https://www.netflix.com">
-          <li>https://www.netflix Originals</li>
+          <li>Netflix Originals</li>
         </a>
       </ul>
     </div>

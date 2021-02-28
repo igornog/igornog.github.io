@@ -22,7 +22,7 @@ function ClassNames(props) {
   const { classes, children, className, ...other } = props;
 
   return (
-    <Button className={clsx(classes.root, className)} {...other}>
+    <Button type="submit" className={clsx(classes.root, className)} {...other}>
       {children || 'class names'}
     </Button>
   );

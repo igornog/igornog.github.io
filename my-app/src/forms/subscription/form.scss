@@ -20,10 +20,13 @@ form {
         &:focus, &:active {
           outline: none;
         }
-        &:focus + label {
-          transform: translate(-.25rem, -1.25rem);
+        &:focus + label, &:focus-within + label, &:active + label, &.active + label {
+          transform: translate(-.25rem, -1rem);
           transition: all 0.2s ease-out;
           font-size: 10px;
+        }
+        &.active {
+          padding-left: 15px;
         }
       }
       label {

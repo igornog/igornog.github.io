@@ -10,6 +10,8 @@ footer {
       grid-auto-rows: 50px;
       a {
         text-decoration: none;
+        display: flex;
+        align-items: center;
         &:hover {
           text-decoration: underline #757575;
         }
