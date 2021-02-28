@@ -1,3 +1,18 @@
+<strong> a netflix copycat page</strong>
+<br/>
+![Screenshot](PrintScreen1.png)
+<br/>
+<br/>
+![Screenshot](PrintScreen2.png)
+<br/>
+<br/>
+![Screenshot](PrintScreen3.png)
+<br/>
+<br/>
+![Screenshot](PrintScreen4.png)
+<br/>
+<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
