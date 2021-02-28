@@ -1,5 +1,7 @@
 <strong> a netflix copycat page</strong>
 <br/>
+<br/>
+<br/>
 ![Screenshot](PrintScreen1.png)
 <br/>
 <br/>
