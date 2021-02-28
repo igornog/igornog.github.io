@@ -1,14 +1,16 @@
 @media only screen and (max-width: 1024px) {
     .faq-section {
-        padding: 0 15px;
+        padding: 35px 15px;
         .accordion {
             padding: 0 15px !important;
             .accordion__title {
                 text-align: left;
+                font-size: 20px;
             }
         }
-        .accordion__text {
+        .accordion__content .accordion__text {
             padding: 15px !important;
+            font-size: 20px;
         }
         .form-bottom {
             display: flex;

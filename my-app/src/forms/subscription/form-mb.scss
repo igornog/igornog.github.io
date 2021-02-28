@@ -10,7 +10,8 @@
       height: unset;
       input {
         height: 50px;
-        padding: 0;
+        padding: 0 0 0 15px;
+        width: -webkit-fill-available;
         position: absolute;
         border-radius: 5px;
         font-size: 18px;
@@ -32,7 +33,9 @@
       font-size: 12px !important;
       height: 50px;
       border-radius: 0 5px 5px 0 !important;
-      left: 15px;
+      span {
+        font-size: 14px;
+      }
     }
   }
 }

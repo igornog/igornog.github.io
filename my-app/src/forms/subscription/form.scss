@@ -25,9 +25,6 @@ form {
           transition: all 0.2s ease-out;
           font-size: 10px;
         }
-        &.active {
-          padding-left: 15px;
-        }
       }
       label {
         position: absolute;
@@ -42,5 +39,8 @@ form {
       width: 20vw;
       height: 100%;
       border-radius: 0 !important;
+      span {
+        font-size: 24px;
+      }
     }
   }

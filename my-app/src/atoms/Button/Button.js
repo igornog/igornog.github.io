@@ -12,7 +12,7 @@ const styles = {
     lineHeight: 'normal',
     padding: '7px 17px',
     fontWeight: '400',
-    fontSize: '1rem',
+    textTransform: 'capitalize',
     color: 'white',
     borderRadius: '4px'
   },
