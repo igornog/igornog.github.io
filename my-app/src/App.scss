@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  background-color: black;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -24,9 +28,10 @@ html, body {
     ),
     url("https://assets.nflxext.com/ffe/siteui/vlv3/e178a4e7-4f52-4661-b2ae-41efa25dca7c/920ff518-b8d4-4669-a652-7faa8b14f960/BR-en-20210222-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     background-attachment: fixed;
-    width: 100%;
-    height: 100%;
     border: none;
+    width: 100vw;
+    height: 100%;
+    margin: -2px -1px -0px -1px;
   }
 
   article {
