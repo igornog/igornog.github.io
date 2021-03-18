@@ -8,9 +8,9 @@ import './button.scss';
 
 const styles = {
   root: {
-    background: '#e50914',
+    background: '#5555C6',
     lineHeight: 'normal',
-    padding: '7px 17px',
+    padding: '15px 44px',
     fontWeight: '400',
     textTransform: 'capitalize',
     color: 'white',
