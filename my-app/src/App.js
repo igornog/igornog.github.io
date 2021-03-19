@@ -20,13 +20,14 @@ function App() {
         subtitle="comece pelo porquê"
       />
       <ThirdSection
-        title="Conheça nosso app e suas funcionalidades?"
+        title="Conheça nosso app e"
+        title2="suas funcionalidades?"
         subtitle="tecnologia & saúde"
       />
       <FourthSection
-        title="Quer simplificar o cuidado 
-          clínico e promover uma melhor 
-          experiência para seus pacientes?"
+        title="Quer simplificar o cuidado"
+        title2="clínico e promover uma melhor"
+        title3="experiência para seus pacientes?"
         subtitle="lista de espera"
       />
     </div>
