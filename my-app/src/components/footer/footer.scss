@@ -1,5 +1,5 @@
 footer {
-  padding: 50px 10vw 50px;
+  padding: 50px 10vw;
   background-color: #5555C6;
   color: #fff;
   display: flex;
@@ -10,12 +10,15 @@ footer {
     width: 200px;
     height: auto;
   }
+
+  table {
+    width: 40vw;
+  }
+
   tbody, thead {
     th {
       text-align: left;
       font-weight: 700;
-      width: 33.3%;
-      padding: 0 0 0 70px;
     }
     tr {
       td{
@@ -29,7 +32,7 @@ footer {
   ul{
     li {
       list-style-type: none;
-      padding: 0 0 0 70px;
+      width: max-content;
     }
   }
 }
