@@ -54,6 +54,19 @@ html, body {
   section {
     padding: 0 10vw;
 
+    .subtitle-border {
+      padding: 0 !important;
+      width: 100%;
+      margin: 11px 0;
+      display: flex;
+      justify-content: center;
+      span {
+        border: 1px solid #D62952;
+        width: 30px;
+        position: absolute;
+      }
+    }
+
     div:first-of-type {
       text-align: center;
       padding: 30px 0 60px;

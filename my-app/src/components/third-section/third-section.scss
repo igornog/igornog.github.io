@@ -1,0 +1,15 @@
+.third-section {
+    padding: 0 10vw;
+    .content {
+        display: flex;
+    }
+    article {
+        width: 50%;
+    }
+    figure {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}

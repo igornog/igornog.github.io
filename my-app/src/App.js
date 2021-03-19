@@ -6,14 +6,15 @@ import ThirdSection from '../src/components/third-section/ThirdSection'
 import FourthSection from '../src/components/fourth-section/FourthSection'
 import Footer from './components/footer/Footer'
 
-import firstSectionImg from "../src/assets/first-section-img.png"
+import presentationImg from "../src/assets/first-section-img.png"
+import appImg from "../src/assets/third-section-img.png"
 
 function App() {
   return (
     <div className="App">
     <Header/>
       <FirstSection
-        img={firstSectionImg}
+        img={presentationImg}
         alt="Vitalicia on cellphones"
       />
       <SecondSection
@@ -24,6 +25,8 @@ function App() {
         title="Conheça nosso app e"
         title2="suas funcionalidades?"
         subtitle="tecnologia & saúde"
+        img={appImg}
+        alt="App funcionalities"
       />
       <FourthSection
         title="Quer simplificar o cuidado"

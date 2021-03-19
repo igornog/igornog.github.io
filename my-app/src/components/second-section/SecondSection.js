@@ -12,6 +12,9 @@ const secondSection = ({title, subtitle}) =>
   <section className="second-section">
     <div>
       <h3>{subtitle}</h3>
+      <div className="subtitle-border">
+        <span></span>
+      </div>
       <h2>{title}</h2>
     </div>
     <ReasonSection
