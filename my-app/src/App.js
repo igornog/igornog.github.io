@@ -4,6 +4,7 @@ import FirstSection from '../src/components/first-section/FirstSection'
 import SecondSection from '../src/components/second-section/SecondSection'
 import ThirdSection from '../src/components/third-section/ThirdSection'
 import FourthSection from '../src/components/fourth-section/FourthSection'
+import Footer from './components/footer/Footer'
 
 import firstSectionImg from "../src/assets/first-section-img.png"
 
@@ -30,6 +31,7 @@ function App() {
         title3="experiência para seus pacientes?"
         subtitle="lista de espera"
       />
+      <Footer/>
     </div>
   );
 }
