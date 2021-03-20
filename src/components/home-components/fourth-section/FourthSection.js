@@ -1,13 +1,13 @@
 import React from 'react';
-import Form from '../../forms/subscription/form'
+import Form from '../../../forms/subscription/form'
 
 import './fourth-section.scss';
 import './fourth-section-mb.scss';
 
-import formImg from '../../assets/form-section.png'
+import formImg from '../../../assets/form-section.png'
 
 const fourthSection = ({title, title2, title3, subtitle}) => 
-  <section className="fourth-section">
+  <section className="fourth-section" id="form">
     <div className="content">
       <article>
         <div>

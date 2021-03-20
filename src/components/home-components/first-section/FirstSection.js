@@ -1,8 +1,12 @@
-import Button from '../../atoms/Button/Button'
+import Button from '../../../atoms/Button/Button'
 import React from 'react';
 
 import './first-section.scss';
 import './first-section-mb.scss';
+
+const scrollIntoView = () => {
+  document.getElementById('form').scrollIntoView({behavior: "smooth"}) 
+}
 
 const firstSection = ({title, subtitle, img, alt}) => 
   <section className="first-section">
@@ -21,7 +25,7 @@ const firstSection = ({title, subtitle, img, alt}) =>
         e mantém seus registros clínicos<br/> organizados, de maneira 100% segura 
         e em um só<br/> lugar . <strong>Feito para as suas necessidades!</strong> 
       </p>
-      <Button>quero conhecer</Button>
+      <Button onClick={scrollIntoView}>quero conhecer</Button>
     </article>
     <figure>
       <img
