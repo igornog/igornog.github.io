@@ -1,0 +1,55 @@
+.slick-slider {
+    padding: 0 !important;
+    outline: none;
+    .slick-list, .slick-track {
+        padding: 0 !important; 
+        outline: none;
+        h3, p {
+            text-align: left;
+        }
+        h3 {
+            font-weight: 700;
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            margin: 30px 0;
+        }
+        .slick-slide {
+            outline: none;
+            div {
+                padding: 0;
+                outline: none;
+            }
+        }
+    }
+    .slick-dots {
+        text-align: left;
+        li {
+            margin: 0;
+        }
+        .slick-active {
+            margin-right: 28px;
+            transition: all 0.3s ease-out;
+            button::before {
+                transition: all 0.3s ease-out;
+                background: #5555C6;
+                width: 40px;
+                height: 12px;
+                opacity: 1;
+            } 
+        }
+        button {
+            border-radius: 100px;
+            width: 12px;
+            height: 12px;
+            &::before {
+                border-radius: 100px;
+                background: #C4C4C4;
+                font-size: 0;
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+}
