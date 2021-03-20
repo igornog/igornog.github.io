@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import './footer.scss';
 import './footer-mb.scss';
@@ -8,7 +9,9 @@ import footerLogo from "../../assets/footer-logo-img.png"
 const Footer = () =>     
   <footer>
     <figure>
+    <Link to="/">
       <img src={footerLogo} alt="Vitalicia-logo"/>
+    </Link>
     </figure>
     <div>
       <table>
@@ -23,9 +26,9 @@ const Footer = () =>
           <tr>
             <td>
               <ul>
-                <li>
-                  sobre-nós
-                </li>
+                <Link to="/sobre-nós">
+                  <li>sobre-nós</li>
+                </Link>
               </ul>
             </td>
             <td>

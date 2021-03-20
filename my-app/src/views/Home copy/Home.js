@@ -6,8 +6,8 @@ import ThirdSection from '../../components/home-components/third-section/ThirdSe
 import FourthSection from '../../components/fourth-section/FourthSection'
 import Footer from '../../components/footer/Footer'
 
-import presentationImg from "../../../src/assets/first-section-img.png"
-import appImg from "../../../src/assets/third-section-img.png"
+import presentationImg from "../../src/assets/first-section-img.png"
+import appImg from "../../src/assets/third-section-img.png"
 
 function Home() {
   return (

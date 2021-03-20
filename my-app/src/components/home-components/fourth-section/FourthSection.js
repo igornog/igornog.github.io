@@ -7,7 +7,7 @@ import './fourth-section-mb.scss';
 import formImg from '../../assets/form-section.png'
 
 const fourthSection = ({title, title2, title3, subtitle}) => 
-  <section className="fourth-section">
+  <section className="fourth-section" id="form">
     <div className="content">
       <article>
         <div>

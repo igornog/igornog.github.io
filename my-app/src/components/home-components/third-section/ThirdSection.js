@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '../../sub-components/carousel/carousel'
+import Carousel from '../../../sub-components/carousel/carousel'
 
 import './third-section.scss';
 import './third-section-mb.scss';
