@@ -1,15 +1,15 @@
-import './App.scss';
-import Header from '../src/components/header/header'
-import FirstSection from '../src/components/first-section/FirstSection'
-import SecondSection from '../src/components/second-section/SecondSection'
-import ThirdSection from '../src/components/third-section/ThirdSection'
-import FourthSection from '../src/components/fourth-section/FourthSection'
-import Footer from './components/footer/Footer'
+import './about-us.scss';
+import Header from '../../components/header/header'
+import FirstSection from '../../components/first-section/FirstSection'
+import SecondSection from '../../components/second-section/SecondSection'
+import ThirdSection from '../../components/third-section/ThirdSection'
+import FourthSection from '../../components/fourth-section/FourthSection'
+import Footer from '../../components/footer/Footer'
 
-import presentationImg from "../src/assets/first-section-img.png"
-import appImg from "../src/assets/third-section-img.png"
+import presentationImg from "../../../src/assets/first-section-img.png"
+import appImg from "../../../src/assets/third-section-img.png"
 
-function App() {
+function Home() {
   return (
     <div className="App">
     <Header/>
@@ -39,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
