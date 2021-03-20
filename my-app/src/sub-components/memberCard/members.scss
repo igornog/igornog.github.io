@@ -1,0 +1,47 @@
+.member-card-section {
+    background-color: #283096;
+    border-radius: 13px;
+    padding: 0 !important;
+    width: 25vw;
+    height: 25vw;
+    figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px 20px;
+        img {
+            border-radius: 500px;
+            width: 75%;
+        }
+        p {
+            align-self: flex-end;
+            top: 5px;
+            position: absolute;
+            right: 15px;
+            font-size: 15px;
+        }
+        h4 {
+            align-self: flex-end;
+            bottom: 15px;
+            position: absolute;
+            left: 15px;
+            font-size: 20px;
+        }
+        span {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background-color: #54E8B2;
+            border-radius: 13px;
+            width: 54px;
+            height: 54px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

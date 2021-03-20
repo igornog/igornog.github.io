@@ -2,7 +2,7 @@ import React from 'react';
 
 import './second-section.scss';
 import './second-section-mb.scss';
-import FounderCard from '../../../sub-components/founders/founderCard';
+import FounderCard from '../../../sub-components/founderCard/founderCard';
 
 import danilogasparImg from '../../../assets/danilogaspar.png' 
 import luisalbinatiImg from '../../../assets/luisalbinati.png' 

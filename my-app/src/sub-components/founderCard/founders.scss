@@ -13,6 +13,10 @@
     }
     article {
         padding: 0 !important;
+        position: relative;
+        div:first-of-type{
+            padding: 30px 0 50px;
+        }
         h4, p{
             text-align: left;
         }
@@ -21,7 +25,20 @@
         }
         p {
             font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
             margin: 25px 0;
+        }
+        span {
+            background-color: #54E8B2;
+            border-radius: 13px;
+            width: 54px;
+            height: 54px;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 }
