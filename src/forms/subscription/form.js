@@ -1,26 +1,45 @@
 import React, { useState, useRef } from "react";
 import Button from '../../atoms/Button/Button'
+import InputMask from "react-input-mask";
 
 import './form.scss';
 import './form-mb.scss';
 
 function Form(){
-    const [setActive, setActiveState] = useState("");
-    const content = useRef();
+    const [setNameActive, setNameActiveState] = useState("");
+    const [setEmailActive, setEmailActiveState] = useState("");
+    const [setNumberActive, setNumberActiveState] = useState("");
+    const nameContent = useRef();
+    const emailContent = useRef();
+    const phoneContent = useRef();
 
     function watchInput() {
-        setActiveState(`${content.current.value}` !==  "" ? "active" : "");
+        setNameActiveState(`${nameContent.current.value}` !==  "" ? "active" : "");
+        setEmailActiveState(`${emailContent.current.value}` !==  "" ? "active" : "");
+        setNumberActiveState(`${phoneContent.current.value}` !==  "" ? "active" : "");
     }
 
     return (
         <>
-        <p>Ready to watch? Enter your email to create or restart your membership.</p>
             <form>
                 <div className='input-wrapper'>
-                    <input type="email" ref={content} className={`${setActive}`} onChange={watchInput}></input>
-                    <label>Email address</label>
+                    <input type="text" ref={nameContent} className={`${setNameActive}`} onChange={watchInput}></input>
+                    <label>Nome completo</label>
                 </div>
-                <Button>Get Started</Button>
+                <div className='input-wrapper'>
+                    <input type="email" ref={emailContent} className={`${setEmailActive}`} onChange={watchInput}></input>
+                    <label>Seu melhor e-mail</label>
+                </div>
+                <div className='input-wrapper'>
+                    <InputMask
+                        mask={"(99) 99999-9999"}
+                        className={`${setNumberActive}`}
+                        onChange={watchInput}
+                        ref={phoneContent}
+                    />
+                    <label>Seu telefone celular</label>
+                </div>
+                <Button>Pronto!</Button>
             </form>
         </>
         )
