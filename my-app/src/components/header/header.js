@@ -17,7 +17,7 @@ const Header = () =>
     </Link>
     <nav>
       <ul>
-        <li><Link to="/sobre-nós">Sobre nós</Link></li>
+        <li><Link onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} to="/sobre-nós">Sobre nós</Link></li>
         <li><Button onClick={scrollIntoView}>teste agora</Button></li>
       </ul>
     </nav>

@@ -7,11 +7,13 @@ import './index.css';
 import Home from './views/Home/Home';
 import AboutUs from './views/About-us/About-us';
 import reportWebVitals from './reportWebVitals';
+import ScrollTop from './atoms/ScrollTop/ScrollTop';
 
 let hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
+    <ScrollTop/>
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/sobre-nós" component={AboutUs} />

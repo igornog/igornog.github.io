@@ -1,0 +1,27 @@
+.founder-card-section {
+    padding: 0 !important;
+    justify-content: center;
+    width: 25vw;
+    max-width: 360px;
+    margin: 0 35px;
+    figure {
+        display: flex;
+        justify-content: flex-start;
+        img {
+            border-radius: 20px;
+        }
+    }
+    article {
+        padding: 0 !important;
+        h4, p{
+            text-align: left;
+        }
+        h4 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            margin: 25px 0;
+        }
+    }
+}

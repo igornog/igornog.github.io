@@ -1,12 +1,12 @@
 import React from 'react';
-import ReasonSection from '../../sub-components/reason/reason'
+import ReasonSection from '../../../sub-components/reason/reason'
 
 import './second-section.scss';
 import './second-section-mb.scss';
 
-import dataImg from '../../assets/data-img.png'
-import lockImg from '../../assets/lock-img.png'
-import chatImg from '../../assets/chat-img.png'
+import dataImg from '../../../assets/data-img.png'
+import lockImg from '../../../assets/lock-img.png'
+import chatImg from '../../../assets/chat-img.png'
 
 const secondSection = ({title, subtitle}) => 
   <section className="second-section">
