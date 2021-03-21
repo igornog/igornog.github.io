@@ -1,7 +1,6 @@
 import "./privacypolicy.scss";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/Footer";
-import { lime } from "@material-ui/core/colors";
 
 function PrivacyPolicy() {
   return (
