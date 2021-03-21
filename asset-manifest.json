@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/igornog/vitalicia/static/css/main.78f5b3c9.chunk.css",
-    "main.js": "/igornog/vitalicia/static/js/main.56c393e1.chunk.js",
-    "main.js.map": "/igornog/vitalicia/static/js/main.56c393e1.chunk.js.map",
-    "runtime-main.js": "/igornog/vitalicia/static/js/runtime-main.620772d3.js",
-    "runtime-main.js.map": "/igornog/vitalicia/static/js/runtime-main.620772d3.js.map",
-    "static/js/2.c6a46ab4.chunk.js": "/igornog/vitalicia/static/js/2.c6a46ab4.chunk.js",
-    "static/js/2.c6a46ab4.chunk.js.map": "/igornog/vitalicia/static/js/2.c6a46ab4.chunk.js.map",
-    "static/js/3.6028a903.chunk.js": "/igornog/vitalicia/static/js/3.6028a903.chunk.js",
-    "static/js/3.6028a903.chunk.js.map": "/igornog/vitalicia/static/js/3.6028a903.chunk.js.map",
+    "main.css": "/igornog/vitalicia/static/css/main.ab2bca65.chunk.css",
+    "main.js": "/igornog/vitalicia/static/js/main.0523220d.chunk.js",
+    "main.js.map": "/igornog/vitalicia/static/js/main.0523220d.chunk.js.map",
+    "runtime-main.js": "/igornog/vitalicia/static/js/runtime-main.f401481d.js",
+    "runtime-main.js.map": "/igornog/vitalicia/static/js/runtime-main.f401481d.js.map",
+    "static/js/2.c632f988.chunk.js": "/igornog/vitalicia/static/js/2.c632f988.chunk.js",
+    "static/js/2.c632f988.chunk.js.map": "/igornog/vitalicia/static/js/2.c632f988.chunk.js.map",
+    "static/js/3.ccf7d21c.chunk.js": "/igornog/vitalicia/static/js/3.ccf7d21c.chunk.js",
+    "static/js/3.ccf7d21c.chunk.js.map": "/igornog/vitalicia/static/js/3.ccf7d21c.chunk.js.map",
     "index.html": "/igornog/vitalicia/index.html",
-    "static/css/main.78f5b3c9.chunk.css.map": "/igornog/vitalicia/static/css/main.78f5b3c9.chunk.css.map",
-    "static/js/2.c6a46ab4.chunk.js.LICENSE.txt": "/igornog/vitalicia/static/js/2.c6a46ab4.chunk.js.LICENSE.txt",
+    "static/css/main.ab2bca65.chunk.css.map": "/igornog/vitalicia/static/css/main.ab2bca65.chunk.css.map",
+    "static/js/2.c632f988.chunk.js.LICENSE.txt": "/igornog/vitalicia/static/js/2.c632f988.chunk.js.LICENSE.txt",
     "static/media/about-us-img.51ade346.png": "/igornog/vitalicia/static/media/about-us-img.51ade346.png",
     "static/media/chat-img.3cd89fa0.png": "/igornog/vitalicia/static/media/chat-img.3cd89fa0.png",
     "static/media/danilogaspar.54054afa.png": "/igornog/vitalicia/static/media/danilogaspar.54054afa.png",
@@ -27,9 +27,9 @@
     "static/media/victor.218a7d64.png": "/igornog/vitalicia/static/media/victor.218a7d64.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.620772d3.js",
-    "static/js/2.c6a46ab4.chunk.js",
-    "static/css/main.78f5b3c9.chunk.css",
-    "static/js/main.56c393e1.chunk.js"
+    "static/js/runtime-main.f401481d.js",
+    "static/js/2.c632f988.chunk.js",
+    "static/css/main.ab2bca65.chunk.css",
+    "static/js/main.0523220d.chunk.js"
   ]
 }
