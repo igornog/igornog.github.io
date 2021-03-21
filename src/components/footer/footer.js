@@ -33,8 +33,12 @@ const Footer = () =>
             </td>
             <td>
               <ul>
-                <li>declaração de privacidade</li>
-                <li>termos de uso</li>
+                <Link to="/política-de-privacidade">
+                  <li>declaração de privacidade</li>
+                </Link>
+                <Link to="/política-de-privacidade">
+                  <li>termos de uso</li>
+                </Link>
               </ul>
             </td>
             <td>

@@ -6,6 +6,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import './index.css';
 import Home from './views/Home/Home';
 import AboutUs from './views/About-us/About-us';
+import PrivacyPolicy from './views/PrivacyPolicy/PrivacyPolicy';
 import reportWebVitals from './reportWebVitals';
 import ScrollTop from './atoms/ScrollTop/ScrollTop';
 
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/sobre-nós" component={AboutUs} />
+      <Route exact path="/política-de-privacidade" component={PrivacyPolicy} />
     </Switch>
   </Router>,
   document.getElementById("root")
