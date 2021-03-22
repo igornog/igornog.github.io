@@ -1,7 +1,10 @@
 .MuiButton-root {
     border-radius: 5px !important;
+    transition: all .2s ease-in-out;
     &:hover {
        background-color: #5555C6 !important;
+       opacity: 0.9;
+       transition: all .2s ease-in-out;
     }
 }
 
