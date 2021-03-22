@@ -30,13 +30,17 @@
         h3 {
             font-weight: 700;
             font-size: 24px;
+            text-transform: unset;
+            font-family: 'Poppins', sans-serif !important;
         }
         p {
             font-size: 18px;
             margin: 20px 0;
+            font-family: proxima-nova !important;
         }
         .slick-slide {
             outline: none;
+            padding: 0;
             div {
                 padding: 0;
                 outline: none;

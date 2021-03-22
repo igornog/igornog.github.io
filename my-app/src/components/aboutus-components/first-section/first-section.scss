@@ -7,6 +7,12 @@
         }
         p {
             font-weight: 400;
+            padding: 0 100px 0 0;
+        }
+    }
+    figure {
+        img {
+            top: unset;
         }
     }
 }
