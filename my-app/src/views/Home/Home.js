@@ -7,7 +7,6 @@ import FourthSection from '../../components/home-components/fourth-section/Fourt
 import Footer from '../../components/footer/footer'
 
 import presentationImg from "../../../src/assets/first-section-img.png"
-import appImg from "../../../src/assets/third-section-img.png"
 
 function Home() {
   return (
@@ -25,8 +24,6 @@ function Home() {
         title="Conheça nosso app e"
         title2="suas funcionalidades?"
         subtitle="tecnologia & saúde"
-        img={appImg}
-        alt="App funcionalities"
       />
       <FourthSection
         title="Quer simplificar o cuidado"
