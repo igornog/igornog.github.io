@@ -36,7 +36,7 @@ const Footer = () =>
                 <Link to="/política-de-privacidade">
                   <li>declaração de privacidade</li>
                 </Link>
-                <Link to="/política-de-privacidade">
+                <Link to="/termos-de-uso">
                   <li>termos de uso</li>
                 </Link>
               </ul>

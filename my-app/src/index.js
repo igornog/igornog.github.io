@@ -7,6 +7,7 @@ import './index.css';
 import Home from './views/Home/Home';
 import AboutUs from './views/About-us/About-us';
 import PrivacyPolicy from './views/PrivacyPolicy/PrivacyPolicy';
+import TermsofService from './views/TermsofService/TermsofService';
 import reportWebVitals from './reportWebVitals';
 import ScrollTop from './atoms/ScrollTop/ScrollTop';
 
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route exact path="/sobre-nós" component={AboutUs} />
       <Route exact path="/política-de-privacidade" component={PrivacyPolicy} />
+      <Route exact path="/termos-de-uso" component={TermsofService} />
     </Switch>
   </Router>,
   document.getElementById("root")
