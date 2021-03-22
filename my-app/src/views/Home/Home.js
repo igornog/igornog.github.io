@@ -4,7 +4,7 @@ import FirstSection from '../../components/home-components/first-section/FirstSe
 import SecondSection from '../../components//home-components/second-section/SecondSection'
 import ThirdSection from '../../components/home-components/third-section/ThirdSection'
 import FourthSection from '../../components//home-components/fourth-section/FourthSection'
-import Footer from '../../components/footer/Footer'
+// import Footer from '../../components/footer/Footer'
 
 import presentationImg from "../../../src/assets/first-section-img.png"
 import appImg from "../../../src/assets/third-section-img.png"
@@ -34,7 +34,7 @@ function Home() {
         title3="experiência para seus pacientes?"
         subtitle="lista de espera"
       />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
