@@ -1,6 +1,6 @@
 import "./privacypolicy.scss";
 import Header from "../../components/header/header";
-import Footer from "../../components/footer/Footer";
+// import Footer from "../../components/footer/Footer";
 
 function PrivacyPolicy() {
   return (
@@ -178,7 +178,7 @@ No entanto, para poder fazer uso de alguns dos nossos serviços, é necessário 
           2021.
         </p>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

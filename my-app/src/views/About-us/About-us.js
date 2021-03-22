@@ -1,6 +1,6 @@
 import './about-us.scss';
 import Header from '../../components/header/header'
-import Footer from '../../components/footer/Footer'
+// import Footer from '../../components/footer/Footer'
 
 import FirstSection from '../../components/aboutus-components/first-section/FirstSection'
 import SecondSection from '../../components/aboutus-components/second-section/SecondSection'
@@ -23,7 +23,7 @@ function AboutUs() {
       title="Nosso time"
       subtitle="quem faz acontecer"
     />
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }
