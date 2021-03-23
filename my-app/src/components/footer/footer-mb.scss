@@ -1,2 +1,25 @@
 @media only screen and (max-width: 1024px) {
+    footer {
+        display: none;
+        &.footer-mobile {
+            display: flex;
+            flex-direction: column;
+            ul {
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                .footer-head {
+                    font-weight: 700;
+                    margin: 24px 0 6px;
+                }
+                .social-media-wrapper {
+                    display: flex;
+                    margin: 12px 0;
+                    width: 50%;
+                    justify-content: space-evenly;
+                }
+            }
+        }
+    }
 }

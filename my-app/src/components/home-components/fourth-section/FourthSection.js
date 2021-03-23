@@ -6,7 +6,7 @@ import './fourth-section-mb.scss';
 
 import formImg from '../../../assets/form-section.png'
 
-const fourthSection = ({title, title2, title3, subtitle}) => 
+const fourthSection = ({title, subtitle}) => 
   <section className="fourth-section" id="form">
     <div className="content">
       <article>
@@ -15,9 +15,7 @@ const fourthSection = ({title, title2, title3, subtitle}) =>
         <div className="subtitle-border">
           <span></span>
         </div>
-          <h2>{title}</h2>
-          <h2>{title2}</h2>
-          <h2>{title3}</h2>
+          <h2>Quer simplificar o cuidado<br/> clínico e promover uma melhor<br/> experiência para seus pacientes?</h2>
         </div>
         <p>Entre para a nossa lista vip e seja o primeiro a 
           saber do nosso lançamento. Preencha o forms ao lado 

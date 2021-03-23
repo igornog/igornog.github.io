@@ -52,4 +52,8 @@ footer {
       width: max-content;
     }
   }
+
+  &.footer-mobile {
+    display: none;
+  }
 }
