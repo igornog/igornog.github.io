@@ -28,8 +28,7 @@ const secondSection = ({title, subtitle}) =>
       index="1"
     />
     <ReasonSection
-      title="Oferecemos a segurança clínica"
-      title2="que você precisa"
+      title="Oferecemos a segurança clínica que você precisa"
       subtitle="Você pode conversar, responder dúvidas, enviar fotos e arquivos com todo o sigilo e segurança.
       Utilizamos criptografia avançada para que a sua experiência seja como deve ser, 100% segura!"
       img={lockImg}
@@ -37,8 +36,7 @@ const secondSection = ({title, subtitle}) =>
       index="2"
     />
     <ReasonSection
-      title="Facilitamos a comunicação"
-      title2="entre você e seus pacientes"
+      title="Facilitamos a comunicação entre você e seus pacientes"
       subtitle="Através do chat, você consegue conversar com os seus pacientes, tirar dúvidas, resolver situações médicas, marcar consultas e muito mais."
       subtitle2="Um app feito para você prestar todo cuidado que seus pacientes precisam e mais importante, sem misturar suas informações e conversas pessoais."
       img={chatImg}

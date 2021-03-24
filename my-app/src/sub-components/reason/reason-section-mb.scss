@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1024px) {
     .reason-section {
         flex-direction: column;
-        margin: 25px 0 50px;
+        margin: 25px 0 75px;
         article {
             display: flex;
             flex-direction: column;
@@ -18,22 +18,32 @@
                 max-width: unset;
                 padding: 0;
                 line-height: 1.25;
+                height: auto;   
             }
             div span {
                 width: 54px;
                 height: 54px;
                 position: relative;
-                margin: 0 0 40px;
+                margin: 0 0 15px;
             }
         }
         figure {
             width: 100%;
             img {
-                width: 100%;
+                width: 50%;
             }
         }
         &:nth-of-type(2) {
             flex-direction: column;
+            article {
+                div, p {
+                    margin: 0;
+                    max-width: unset;
+                }
+            }
+            figure {
+                margin: 25px 0 0;
+            }
         }
         &:nth-of-type(3) {
             figure {

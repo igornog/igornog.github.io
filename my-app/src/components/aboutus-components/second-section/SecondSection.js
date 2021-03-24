@@ -24,6 +24,7 @@ const thirdSection = ({title, title2, subtitle}) =>
         subtitleStrong=" Feito para as suas necessidades!"
         img={luisalbinatiImg}
         alt="Luis Albinati"
+        link="https://www.linkedin.com/in/luisalbinati/"
       />
       <FounderCard
         title="Danilo Gaspar"
@@ -31,6 +32,7 @@ const thirdSection = ({title, title2, subtitle}) =>
         subtitleStrong=" Feito para as suas necessidades!"
         img={danilogasparImg}
         alt="Danilo Gaspar"
+        link="https://www.linkedin.com/in/danilo-gaspar-7a48a563/"
       />
     </div>
   </section>

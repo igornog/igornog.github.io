@@ -11,7 +11,7 @@ const thirdSection = ({title, subtitle}) =>
       <div className="subtitle-border">
         <span></span>
       </div>
-      <h2>Conheça nosso app e<br/> suas funcionalidades?</h2>
+      <h2>Conheça nosso app e suas funcionalidades</h2>
     </div>
     <div className="content">
         <Carousel/>

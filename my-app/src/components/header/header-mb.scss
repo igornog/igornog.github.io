@@ -1,14 +1,16 @@
 @media only screen and (max-width: 1024px) {
   .App-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    padding: 35px;
-    .netflix-logo {
-      width: 25vw;
-      height: auto;
-      padding: 7px 0 0 0;
+    padding: 10vw 35px 5vw;
+    .vitalicia-logo {
+      width: auto;
+      max-width: unset;
+      padding: 0;
+    }
+    button span {
+      font-size: 16px;
+    }
+    nav {
+      display: none;
     }
   }
 }

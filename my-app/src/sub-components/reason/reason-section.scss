@@ -2,12 +2,13 @@
     display: flex;
     align-items: center;
     padding: 0 !important;
-    margin: 0 0 75px;
+    margin: 25px 0 100px;
     article {
-        padding: 0 50px 0 0;
+        padding: 0 50px 0 0 !important;
         div {
             position: relative;
             padding: 0 0 30px !important;
+            width: 75%;
             span {
                 width: 84px;
                 height: 84px;
@@ -35,15 +36,25 @@
         p {
             font-size: 18px;
             padding-left: 120px;
-            max-width: 50vw;
+            max-width: 75%;
         }
     }
     figure {
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
     }
     &:nth-of-type(2){
         flex-direction: row-reverse;
+        article {
+            div {
+                margin: 0 0 0 auto;
+                max-width: 65%;
+            }
+            p {
+                max-width: 65%;
+                margin: 0 0 0 auto !important;
+            }
+        }
     }
 }
