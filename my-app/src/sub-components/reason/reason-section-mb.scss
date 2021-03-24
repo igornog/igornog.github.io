@@ -7,7 +7,7 @@
             flex-direction: column;
             padding: 0 !important;
             div {
-                padding: 0 0 20px !important;
+                padding: 0 !important;
             }
             div:first-of-type {
                 display: flex;
@@ -18,7 +18,8 @@
                 max-width: unset;
                 padding: 0;
                 line-height: 1.25;
-                height: auto;   
+                height: auto;
+                font-size: 18px;   
             }
             div span {
                 width: 54px;
@@ -31,6 +32,7 @@
             width: 100%;
             img {
                 width: 50%;
+                height: auto;
             }
         }
         &:nth-of-type(2) {
