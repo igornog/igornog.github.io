@@ -50,6 +50,11 @@ footer {
     li {
       list-style-type: none;
       width: max-content;
+      transition: all .3s ease-out;
+      &:hover {
+        transition: all .3s ease-out;
+        opacity: .75;
+      }
     }
   }
 
