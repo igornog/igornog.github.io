@@ -23,11 +23,11 @@ function Form(){
         <>
             <form>
                 <div className='input-wrapper'>
-                    <input type="text" ref={nameContent} className={`${setNameActive}`} onChange={watchInput}></input>
+                    <input type="text" ref={nameContent} name="name" className={`${setNameActive}`} onChange={watchInput}></input>
                     <label>Nome completo</label>
                 </div>
                 <div className='input-wrapper'>
-                    <input type="email" ref={emailContent} className={`${setEmailActive}`} onChange={watchInput}></input>
+                    <input type="email" ref={emailContent} name="email" className={`${setEmailActive}`} onChange={watchInput}></input>
                     <label>Seu melhor e-mail</label>
                 </div>
                 <div className='input-wrapper'>
@@ -38,6 +38,7 @@ function Form(){
                         ref={phoneContent}
                         pattern="[0-9]*" 
                         inputmode="numeric"
+                        name="cellphone"
                     />
                     <label>Seu telefone celular</label>
                 </div>

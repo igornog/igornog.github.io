@@ -28,18 +28,18 @@ export default function SimpleSlider() {
         alt="Notificações de mensagem"
       />
       <Slide
-        title="Através do chat, você consegue conversar com os seus pacientes, tirar dúvidas, resolver situações médicas."
-        textParagraph1="Um app feito para você prestar todo cuidado que seus pacientes precisam e mais importante, sem misturar suas informações e conversas pessoais."
-        textParagraph2="Solicite as informações de saúde a qualquer momento, em qualquer lugar."
-        textStrong="Simples e fácil, como sempre deveria ser."
+        title="Um jeito inteligente de se comunicar com seus pacientes."
+        textParagraph1="Através do chat, você consegue conversar com seus pacientes, tirar dúvidas, enviar e receber arquivos, resolver situações médicas, quando e onde estiver."
+        textParagraph2="Um app feito para facilitar a comunicação."
+        textStrong="Simples e fácil, como você sempre precisou."
         img={slide2Img}
         alt="Centralizar informações"
       />
       <Slide
         title="Uma maneira fácil e segura de centralizar as informações de saúde de seus pacientes"
-        textParagraph1="Seus registros clinicos integrados em uma plataforma que promove o melhor cuidado e uma experiência clínica aos seus pacientes."
-        textParagraph2="Solicite as informações de saúde a qualquer momento, em qualquer lugar."
-        textStrong="Mais precisão em menos cliques, simples assim."
+        textParagraph1="Além do chat, também integramos seus registros clínicos e disponibilizamos informações do paciente através do perfil. Com isso você consegue ser mais eficiente, assertivo e promover uma experiência personalizada."
+        textParagraph2="Sempre que precisar, você também consegue solicitar informações de saúde diretamente dos seus pacientes."
+        textStrong="Mais precisão em menos cliques, isso é Vitalícia"
         img={slide3Img}
         alt="Centralizar informações"
       />

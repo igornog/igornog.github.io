@@ -23,7 +23,7 @@ const Header = () =>
     <nav>
       <ul>
         <li><Link onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} to="/sobre-nós">Sobre nós</Link></li>
-        <li><Button onClick={scrollIntoForm}>teste agora</Button></li>
+        <li><Button onClick={scrollIntoForm}>Quero conhecer</Button></li>
       </ul>
     </nav>
   </header>

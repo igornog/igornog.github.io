@@ -37,12 +37,6 @@
         }
         &:nth-of-type(2) {
             flex-direction: column;
-            article {
-                div, p {
-                    margin: 0;
-                    max-width: unset;
-                }
-            }
             figure {
                 margin: 25px 0 0;
             }
