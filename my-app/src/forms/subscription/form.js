@@ -36,6 +36,8 @@ function Form(){
                         className={`${setNumberActive}`}
                         onChange={watchInput}
                         ref={phoneContent}
+                        pattern="[0-9]*" 
+                        inputmode="numeric"
                     />
                     <label>Seu telefone celular</label>
                 </div>
