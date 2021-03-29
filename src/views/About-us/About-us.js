@@ -1,6 +1,7 @@
 import './about-us.scss';
+import './about-us-mb.scss';
 import Header from '../../components/header/header'
-import Footer from '../../components/footer/Footer'
+import Footer from '../../components/footer/footer'
 
 import FirstSection from '../../components/aboutus-components/first-section/FirstSection'
 import SecondSection from '../../components/aboutus-components/second-section/SecondSection'

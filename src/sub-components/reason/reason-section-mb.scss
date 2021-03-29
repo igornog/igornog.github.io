@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1024px) {
+    .reason-section {
+        flex-direction: column;
+        margin: 0 0 75px;
+        article {
+            display: flex;
+            flex-direction: column;
+            padding: 0 !important;
+            div {
+                padding: 0 !important;
+            }
+            div:first-of-type {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            h4, p {
+                max-width: unset;
+                padding: 0;
+                line-height: 1.25;
+                height: auto;
+                font-size: 18px;   
+            }
+            div span {
+                width: 54px;
+                height: 54px;
+                position: relative;
+                margin: 0 0 15px;
+            }
+        }
+        figure {
+            width: 100%;
+            img {
+                width: 50%;
+                height: 50%;
+            }
+        }
+        &:nth-of-type(2) {
+            flex-direction: column;
+            figure {
+                margin: 25px 0 0;
+            }
+        }
+        &:nth-of-type(3) {
+            figure {
+                padding: 35px 0 0;
+            }
+        }
+    }
+}

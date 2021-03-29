@@ -24,18 +24,21 @@ const thirdSection = ({title, title2, subtitle}) =>
         subtitle="Design & Produto"
         img={taynaImg}
         alt="Tayná Fujishima"
+        link="https://www.linkedin.com/in/taynafujishima/"
       />
       <MemberCard
         title="Evandro Neder"
         subtitle="Tecnologia"
         img={evandroImg}
         alt="Evandro Neder"
+        link="https://www.linkedin.com/in/evandro-neder-rosa-546a16b5/"
       />
       <MemberCard
         title="Victor Rafael"
         subtitle="Tecnologia"
         img={victorImg}
         alt="Victor Rafael"
+        link="https://www.linkedin.com/in/victorsls/"
       />
     </div>
   </section>

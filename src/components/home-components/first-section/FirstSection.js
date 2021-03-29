@@ -20,10 +20,10 @@ const firstSection = ({title, subtitle, img, alt}) =>
         </span>
       </h2>
       <p>
-        Sem mais confusão na hora de atender seus pacientes<br/> online. 
-        Com a Vitalícia você centraliza a comunicação<br/> com seus pacientes 
-        e mantém seus registros clínicos<br/> organizados, de maneira 100% segura 
-        e em um só<br/> lugar . <strong>Feito para as suas necessidades!</strong> 
+        Sem mais confusão na hora de atender seus pacientes online.<br/>
+        Com a Vitalícia você centraliza a comunicação com seus pacientes 
+        e mantém seus registros clínicos organizados, de maneira 100% segura 
+        e em um só lugar. <br/><strong>Feito para as suas necessidades!</strong> 
       </p>
       <Button onClick={scrollIntoView}>quero conhecer</Button>
     </article>

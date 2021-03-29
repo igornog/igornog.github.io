@@ -1,13 +1,13 @@
-import "./privacypolicy.scss";
+import "./termsofservice.scss";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
 
-function PrivacyPolicy() {
+function TermsofService() {
   return (
-    <div className="App privacy-policy">
+    <div className="App terms-of-service">
       <Header />
       <section>
-        <h2>Política de privacidade<br/> e cookies da Vitalicia</h2>
+        <h2>Termos de uso<br/>da Vitalicia</h2>
         <p>
           Esta política de privacidade e cookies se aplica ao processamento de
           seus dados pessoais como usuário do aplicativo Vitalicia e do site
@@ -183,4 +183,4 @@ No entanto, para poder fazer uso de alguns dos nossos serviços, é necessário 
   );
 }
 
-export default PrivacyPolicy;
+export default TermsofService;

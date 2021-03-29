@@ -1,11 +1,16 @@
 .MuiButton-root {
     border-radius: 5px !important;
+    transition: all .2s ease-in-out;
     &:hover {
        background-color: #5555C6 !important;
+       opacity: 0.9;
+       transition: all .2s ease-in-out;
     }
 }
 
 .MuiButton-label {
     font-size: 18px;
     font-weight: 700;
+    font-family: proxima-nova !important;
+    text-transform: uppercase;
 }

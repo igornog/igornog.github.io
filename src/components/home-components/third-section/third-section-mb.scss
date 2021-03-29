@@ -1,3 +1,17 @@
 @media only screen and (max-width: 1024px) {
-
+    .third-section {
+        h2 {
+            width: unset;
+        }
+        article {
+            width: 50%;
+        }
+        figure {
+            width: 50%;
+            margin: 15px 0 75px;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }

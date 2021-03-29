@@ -42,10 +42,23 @@ footer {
     a {
       color: #fff;
       text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        transition: all .3s ease-out;
+      }
     }
     li {
       list-style-type: none;
       width: max-content;
+      transition: all .3s ease-out;
+      &:hover {
+        transition: all .3s ease-out;
+        opacity: .75;
+      }
     }
+  }
+
+  &.footer-mobile {
+    display: none;
   }
 }
