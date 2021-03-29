@@ -1,6 +1,8 @@
 import './about-us.scss';
+import './about-us-mb.scss';
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
+import FooterMobile from '../../components/footer/footer-mb'
 
 import FirstSection from '../../components/aboutus-components/first-section/FirstSection'
 import SecondSection from '../../components/aboutus-components/second-section/SecondSection'
@@ -24,6 +26,7 @@ function AboutUs() {
       subtitle="quem faz acontecer"
     />
     <Footer/>
+    <FooterMobile/>
     </div>
   );
 }

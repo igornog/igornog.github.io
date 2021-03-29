@@ -1,6 +1,8 @@
 import "./termsofservice.scss";
+import "./termsofservice-mb.scss";
 import Header from "../../components/header/header";
 import Footer from "../../components/footer/footer";
+import FooterMobile from "../../components/footer/footer-mb";
 
 function TermsofService() {
   return (
@@ -179,6 +181,7 @@ No entanto, para poder fazer uso de alguns dos nossos serviços, é necessário 
         </p>
       </section>
       <Footer />
+      <FooterMobile />
     </div>
   );
 }
