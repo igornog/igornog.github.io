@@ -11,7 +11,7 @@
             .content {
                 flex-direction: column;
                 .founder-card-section {
-                    width: 100%;
+                    width: auto;
                     max-width: unset;
                     margin: 0;
                     figure img {
@@ -30,7 +30,7 @@
         }
         .about-us.third-section {
             .member-card-section {
-                width: 100vw;
+                width: auto;
                 height: auto;
                 margin: 0 0 30px 0;
                 figure {
